@@ -23,7 +23,7 @@ const Home = () => {
             <Link className="btn hero-btn" to="/admissions">Apply Now!</Link>
         </div>
         </div>
-
+ 
         <p>
           <strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic
           excellence, innovation, and holistic development. Established in <strong>1980</strong>, we have proudly
