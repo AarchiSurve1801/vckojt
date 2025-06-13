@@ -10,7 +10,7 @@ const ChatbotComponent = () => {
     { text: KNOWLEDGE_BASE_DATA.greeting.response, sender: "bot" },
   ]);
   const [inputValue, setInputValue] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false); 
   const chatMessagesRef = useRef(null);
   const [preparedKnowledgeBase, setPreparedKnowledgeBase] =
     useState(KNOWLEDGE_BASE_DATA);
@@ -161,7 +161,7 @@ const ChatbotComponent = () => {
                 <p className="initial-loading-message">
                   Initializing knowledge base... Please wait.
                 </p>
-              </div>
+              </div> 
             )}
             {!isOnline && (
               <p className="chatbot-message offline-message">
